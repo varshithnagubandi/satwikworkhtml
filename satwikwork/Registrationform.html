@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGISTRATION-FORM</title>
+    <link rel="stylesheet" href="register.css" />
+  </head>
+
+  <body>
+    <form class="register-form">
+      <h1>REGISTRATION FORM</h1>
+      <label>Username:</label>
+      <input type="text" id="username" name="username" required />
+
+      <label>Password:</label>
+      <input type="password" id="password" name="password" required />
+
+      <label>Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label>Mobile Number:</label>
+      <input type="tel" id="mobile" name="mobile" required />
+
+      <label>First Name:</label>
+      <input type="text" id="firstname" name="firstname" required />
+
+      <label>Last Name:</label>
+      <input type="text" id="lastname" name="lastname" required />
+
+      <label>Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required />
+
+      <label>Gender:</label>
+      <div class="gender-options">
+        <label
+          ><input type="radio" name="gender" value="male" required />
+          Male</label
+        >
+        <label
+          ><input type="radio" name="gender" value="female" required />
+          Female</label
+        >
+        <label
+          ><input type="radio" name="gender" value="others" required />
+          Others</label
+        >
+      </div>
+
+      <a href="Otp.html" class="submit-btn">REGISTER</a>
+    </form>
+  </body>
+</html>
